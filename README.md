@@ -1,4 +1,7 @@
 # :sunny: [WWW'2025] LIRA
+[![DOI](https://zenodo.org/badge/919929907.svg)](https://doi.org/10.5281/zenodo.14836338)
+
+
 This is an official implementation of the paper: **LIRA: A Learning-based Query-aware Partition Framework for Large-scale ANN Search**
 
 To enhance search efficiency of approximate nearest neighbor (ANN), a set of partition-based methods are proposed to narrow down the search space by merely probing partial partitions. However, they have two common unsolved issues. First, partition probing with distance ranks in the query phase is a widely adopted strategy in existing studies such as IVF, which will inevitably probe the partitions that are irrelevant to the query results since the data distribution is not considered in this strategy. Second, all the partition-based indexes have the boundary problem that separates the kNN of a query to multiple partitions and produces a long-tailed kNN distribution, which degrades the optimal nprobe and the search efficiency. To deal with these problems, we propose a LearnIng-based queRy-aware pArtition framework, called LIRA. 
