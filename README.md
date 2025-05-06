@@ -99,15 +99,27 @@ python LIRA_smallscale.py
 ```
 
 ## Citation
-If you find this repository useful in your research, please cite the following paper for the paper in WWW'2025 is not public yet:
+If you find this repository useful in your research, please cite the following paper for the paper in WWW'2025:
+
 ```
-@article{zeng2025lira,
-  title={LIRA: A Learning-based Query-aware Partition Framework for Large-scale ANN Search},
-  author={Zeng, Ximu and Deng, Liwei and Chen, Penghao and Chen, Xu and Su, Han and Zheng, Kai},
-  journal={arXiv preprint arXiv:2503.23409},
-  year={2025}
+@inproceedings{10.1145/3696410.3714633,
+author = {Zeng, Ximu and Deng, Liwei and Chen, Penghao and Chen, Xu and Su, Han and Zheng, Kai},
+title = {LIRA: A Learning-based Query-aware Partition Framework for Large-scale ANN Search},
+year = {2025},
+isbn = {9798400712746},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696410.3714633},
+doi = {10.1145/3696410.3714633},
+booktitle = {Proceedings of the ACM on Web Conference 2025},
+pages = {2729–2741},
+numpages = {13},
+keywords = {approximate nearest neighbor search, learning-to-index, vector retrieval},
+location = {Sydney NSW, Australia},
+series = {WWW '25}
 }
 ```
+
 
 ## Contact
 If you have any problem, feel free to contact ximuzeng@std.uestc.edu.cn.
